@@ -1,26 +1,16 @@
 {
-  "name": "back",
+  "name": "projeto-web-iii",
   "version": "1.0.0",
-  "description": "",
+  "description": "Projeto Web III",
   "homepage": "https://github.com/vitoriademourabauer/projeto-web-iii#readme",
-  "bugs": {
-    "url": "https://github.com/vitoriademourabauer/projeto-web-iii/issues"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vitoriademourabauer/projeto-web-iii.git"
   },
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
-  "main": "backend/server.js",
   "scripts": {
-    "start": "nodemon backend/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "cors": "^2.8.6",
-    "express": "^5.2.1",
-    "nodemon": "^3.1.14"
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start"
   }
 }
