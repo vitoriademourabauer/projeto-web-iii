@@ -15,12 +15,12 @@ Usuario.init(
             allownull: false,
         },
         email: {
-            type: DataType.STRING,
+            type: DataTypes.STRING,
             allownull: false,
             unique: true,
         },
         senha: {
-            type: DataType.STRING,
+            type: DataTypes.STRING,
             allownull: false,
         },
         foto: {
